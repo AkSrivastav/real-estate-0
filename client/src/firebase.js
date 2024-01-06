@@ -7,11 +7,11 @@ import { initializeApp } from "firebase/app";
 // for example
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: "mern-estate-ee9cd.firebaseapp.com",
-  projectId: "mern-estate-ee9cd",
-  storageBucket: "mern-estate-ee9cd.appspot.com",
-  messagingSenderId: "619475360920",
-  appId: "1:619475360920:web:934ccc90a1ac43b51ac4ed",
+  authDomain: import.meta.env.AUTH_DOMAIN,
+  projectId: import.meta.env.PROJECT_ID,
+  storageBucket: import.meta.env.STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.MESSAGING_SENDER_ID,
+  appId: import.meta.env.APP_ID,
 };
 
 // Initialize Firebase

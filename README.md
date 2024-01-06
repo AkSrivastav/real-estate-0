@@ -21,12 +21,14 @@
   - store your security key inside `JWT_SECRET` variable
   - example:
   ```
-  MONGO_URI = mongodb+srv://<username>:<password>@<collection_name>.<providedbymongodb>.mongodb.net/
+  MONGO_URI = mongodb+srv://<username>:<password>@<collection_name>.<providedbymongodb>.mongodb.net/ (MongoDB Atlas)
   or
-  MONGO_URI = mongodb://127.0.0.1:27017/realestate
+  MONGO_URI = mongodb://127.0.0.1:27017/realestate (MongoDB Compass)
   JWT_SECRET = Thisisanexampleofjwtsecretkey
-  CLIENT_URL = http://localhost:3000/
+  PORT = 3000 (Default)
+  set the same port in project/client/vite.config.js
   ```
+  
 - Inside `client` folder, create a new file called `.env` which stores your information about client side such as `AUTH_DOMAIN` and `MESSAGING_SENDER_ID` informations. Example is given.
 
   - store your security keys inside variables

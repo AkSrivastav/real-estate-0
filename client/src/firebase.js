@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 // for example
-const firebaseConfig = {
+const fireBaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.AUTH_DOMAIN,
   projectId: import.meta.env.PROJECT_ID,
@@ -15,4 +15,4 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-export const app = initializeApp(firebaseConfig);
+export const app = initializeApp(fireBaseConfig);
